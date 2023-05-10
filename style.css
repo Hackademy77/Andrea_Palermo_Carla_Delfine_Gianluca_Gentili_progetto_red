@@ -1,0 +1,14 @@
+* {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+/* CUSTOM HEADER */
+.bg-img-custom{
+
+    background-image: url(./media/switzerland-862870_1920.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
