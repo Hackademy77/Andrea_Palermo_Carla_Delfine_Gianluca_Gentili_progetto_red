@@ -9,10 +9,11 @@ body{
 /* CUSTOM HEADER */
 .bg-img-custom{
     width: 100%;
-    background: linear-gradient(to bottom ,rgb(255,255,255), rgb(0,0,0,0)), url(./media/mountains.png),url(./media/switzerland-862870_1920.jpg);
+    background: linear-gradient(to bottom ,rgb(255,255,255), rgb(0,0,0,0)), url(./media/mountains2.png),url(./media/switzerland-862870_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    /* background-blend-mode: overlay; */
 }
 
 
@@ -107,7 +108,8 @@ h4::before{
 
 .bg-timeline{
     background-image: url(./media/single.png);
-    background-position: bottom;
+    background-position-y: bottom;
+    background-position-x: right;
     background-repeat: no-repeat;
     background-size: 450px;
 }
