@@ -1,38 +1,144 @@
 * {
     font-family: 'Rajdhani', sans-serif;
 }
-    
-    
-    /* CUSTOM HEADER */
-    .bg-img-custom{
-        width: 100%;
-        background: linear-gradient(to bottom ,rgb(255,255,255), rgb(0,0,0,0)), url(./media/mountains.png),url(./media/switzerland-862870_1920.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-    
-    
-    h1{
-        font-family: 'Nova Square', cursive;
-        font-size: 80px; 
-        letter-spacing: 60px;
-        color: darkred;
-    }
+
+body{
+    background-color: #ececec;
+}
+
+/* CUSTOM HEADER */
+.bg-img-custom{
+    width: 100%;
+    background: linear-gradient(to bottom ,rgb(255,255,255), rgb(0,0,0,0)), url(./media/mountains.png),url(./media/switzerland-862870_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 
-    .p-custom::before{
-        content: '"';
-        font-size: 40px;
-        color: darkred;
-        font-style: italic;
-        
-       
-     }
+h1{
+    font-family: 'Nova Square', cursive;
+    font-size: 80px; 
+    letter-spacing: 60px;
+    color: darkred;
+}
 
-    .p-custom::after{
-        content: '"';
-        font-size: 40px;
-        color: darkred;
-        font-style: italic;
-    }
+
+.p-custom::before{
+    content: '"';
+    font-size: 40px;
+    color: darkred;
+    font-style: italic;
+    
+    
+}
+
+.p-custom::after{
+    content: '"';
+    font-size: 40px;
+    color: darkred;
+    font-style: italic;
+}
+
+
+/* SEZIONE ICONE */
+
+.icon{
+    color: darkred;
+    font-size: 25px;
+}
+
+.bb-custom{
+    border-bottom: 4px solid darkred;
+    position: relative;
+}
+
+.icon-circle::before{
+    content:'';
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 2px solid darkred;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -12px;
+    left: 45%;
+}
+
+/* SEZIONE PARAGRAFI */
+
+.title{
+    color: darkred;
+}
+
+
+/* SEZIONE BUTTON */
+
+.bg-image-button{
+    width: 100%;
+    height: 60vh;
+    background-image: url(./media/trees2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* SEZIONE TIMELINE */
+
+.timeline{
+    width: 50%;
+    border-left: 4px solid darkred;
+    padding-left: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+
+h4::before{
+    content:'';
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 2px solid darkred;
+    border-radius: 50%;
+    position: absolute;
+    left: -11px;
+}
+
+
+.bg-timeline{
+    background-image: url(./media/single.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 450px;
+}
+
+
+
+
+
+
+/* CSS */
+.button-5 {
+    align-items: center;
+    background-color: darkred;
+    border: 1px solid transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    min-height: 3rem;
+    padding: 0px 60px;
+    transition: 0.8s;
+}
+
+.button-5:hover,
+.button-5:focus {
+    background-color: #322f2e;
+}
+
+.button-5:hover {
+    transform: translateY(-1px);
+}
+
+.button-5:active {
+    background-color: #c85000;
+    transform: translateY(0);
+}
