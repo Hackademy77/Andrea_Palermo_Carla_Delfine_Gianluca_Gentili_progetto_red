@@ -69,6 +69,7 @@ h1{
 
 .title{
     color: darkred;
+    
 }
 
 
@@ -137,6 +138,52 @@ h4::before{
 
 .social{
     color: darkred;
+}
+
+/* SEZIONE OUR BENEFIT */
+
+h2{
+    font-family: 'Nova Square', cursive;
+}
+
+.bigcircleBene{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid darkred;
+}
+
+.midcircleBene{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-image: url(./media/fog.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+
+}
+
+.bigcircleBene2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid darkred;
+}
+
+.midcircleBene2{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-image: url(./media/mountain-547363_1920.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+
 }
 
 
