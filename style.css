@@ -112,7 +112,32 @@ h4::before{
 }
 
 
+/* SEZIONE OUR TEAM */
 
+
+.bigcircle{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid darkred;
+}
+
+.midcircle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-image: url(./media/landscape-975091_1920.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+
+}
+
+.social{
+    color: darkred;
+}
 
 
 
